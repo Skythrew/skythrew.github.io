@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Skythrew | Blog</title>
+    <link>https://skythrew.github.io/post/</link>
+    <description>Recent content in Posts on Skythrew | Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Tue, 15 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://skythrew.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Présentation du site et de GNU/Linux</title>
+      <link>https://skythrew.github.io/post/premier-post/</link>
+      <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://skythrew.github.io/post/premier-post/</guid>
+      <description>Présentation Bienvenue à toi cher visiteur ! J&amp;rsquo;écris ce premier article pour te présenter le site et son but. Ce site relate mes différentes expériences avec le système d&amp;rsquo;exploitation GNU/Linux ainsi que mes différents projets. J&amp;rsquo;y publierai des tutoriels pour peut-être t&amp;rsquo;apprendre des nouvelles choses sur GNU/Linu, ses logiciels et la programmation. Si tu n&amp;rsquo;es pas encore passé sur GNU/Linux, je t&amp;rsquo;invite à télécharger la distribution GNU/Linux Ubuntu qui est une des distributions GNU/Linux les plus populaires et une des plus faciles à prendre en main.</description>
+    </item>
+    
+  </channel>
+</rss>
