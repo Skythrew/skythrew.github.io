@@ -59,9 +59,9 @@ function encrip(text, key)
 	return message;
 }
 
-function decrip(key, cipher)
+function decrip(key, cipherbase)
 {
-	cipher = stringToIntList(cipher);
+	cipher = stringToIntList(cipherbase);
 	key = stringToIntList(key);
 	var table = makeTable();
 	var keyChar = 0;
@@ -69,6 +69,10 @@ function decrip(key, cipher)
 	while (message.length<cipher.length) {
 		for (var i = 0; i < cipher.length; i++) {
 			var row = table[0].indexOf(key[keyChar]);
+			
+			if (row == -1)
+				return cipherbase;
+
 			var col = table[row].indexOf(cipher[i]);
 			message[message.length] = table[0][col];
 			if (keyChar<key.length-1) {

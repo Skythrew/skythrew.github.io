@@ -1,3 +1,8 @@
+* {
+    font-size: 16px;
+    flex-wrap: wrap;
+}
+
 body {
     display: flex;
     min-height: 100vh;
@@ -7,6 +12,7 @@ body {
     font-family: 'Orbitron';
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 footer {
@@ -70,4 +76,14 @@ button:hover {
 @font-face {
     font-family: 'Orbitron';
     src: url('./assets/Orbitron-VariableFont_wght.ttf');
+}
+
+@media screen and (max-width: 510px) {
+    * {
+        font-size: 12px;
+    }
+    .question {
+        min-width: 100px;
+        max-width: 400px;
+    }
 }
