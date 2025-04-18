@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    overflow: hidden;
+    font-family: 'Orbitron';
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+button {
+    background: none;
+    outline: none;
+    border: 3px solid white;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    font-weight: bold;
+    transition: all .5s;
+    min-height: 40px;
+    width: min-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-inline: 40px;
+}
+
+button:hover {
+    color: black;
+    background: white;
+    cursor: pointer;
+}
+
+.question {
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.question {
+}
+
+.question > input {
+    background: none;
+    outline: none;
+    border: 3px solid white;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    min-height: 50px;
+    min-width: 80px;
+    font-size: 18px;
+    font-weight: bold   ;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('./assets/Orbitron-VariableFont_wght.ttf');
+}
